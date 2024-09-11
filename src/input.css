@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .tableStyle {
+    @apply border border-collapse bg-gray-100 shadow-md mx-auto;
+  }
+  .tableStyle thead,
+  .tableStyle tbody,
+  .tableStyle tfoot,
+  .tableStyle tr,
+  .tableStyle th,
+  .tableStyle td {
+    border-width: 1px;
+    padding: 10px 20px;
+  }
+  .tableStyle caption {
+    @apply bg-gray-200 font-bold py-2 px-1;
+  }
+}
